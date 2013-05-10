@@ -1,0 +1,2713 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2011-06-03 06:16+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: /app_controller.php:46
+msgid "Username or password not found"
+msgstr "Nome utente o password errati"
+
+#: /app_controller.php:47
+msgid "You are not authorized to access this location"
+msgstr "Non sei autorizzato ad accedere a quest'area"
+
+#: /app_controller.php:91
+msgid "You are not allowed here!"
+msgstr "Non hai il permesso di accedere a quest'area!"
+
+#: /controllers/api_controller.php:262
+#: /controllers/open311_controller.php:262
+msgid "The marker marker has been updated."
+msgstr "Hot Spot aggiornato."
+
+#: /controllers/api_controller.php:321
+#: /controllers/markers_controller.php:357;751
+#: /controllers/open311_controller.php:321
+msgid "The Marker ID# %s has been saved."
+msgstr "Hot Spot ID %s salvato."
+
+#: /controllers/api_controller.php:364
+#: /controllers/open311_controller.php:364
+msgid "Marker deleted."
+msgstr "Hot Spot eliminato."
+
+#: /controllers/categories_controller.php:35
+msgid "Edit Categories"
+msgstr "Modifica Categorie"
+
+#: /controllers/comments_controller.php:73
+msgid "This comment has been saved and will be soon published by authorities."
+msgstr "Il commento e' stato salvato e presto sara' pubblicato dall'amministratore."
+
+#: /controllers/comments_controller.php:79
+msgid "This comment has been saved."
+msgstr "Il commento e' stato salvato e presto sara' pubblicato dall'amministratore."
+
+#: /controllers/comments_controller.php:85
+msgid "This comment could not be saved."
+msgstr "Il commento non puo' essere salvato."
+
+#: /controllers/comments_controller.php:89
+#: /controllers/users_controller.php:114;266
+msgid "Sorry, you are wrong, please recalculate."
+msgstr "Spiacente, hai sbagliato, per favore ricalcolare."
+
+#: /controllers/comments_controller.php:109
+msgid "This comment does not exist"
+msgstr "Questo commento non esiste"
+
+#: /controllers/comments_controller.php:143
+msgid "Status changed."
+msgstr "Stato modificato."
+
+#: /controllers/comments_controller.php:158
+msgid "Invalid id for Comment"
+msgstr "ID non valido per il Commento"
+
+#: /controllers/comments_controller.php:178
+msgid "Invalid comment"
+msgstr "Commento non valido"
+
+#: /controllers/comments_controller.php:184
+msgid "The comment has been saved"
+msgstr "Il commento e' stato salvato e presto sara' pubblicato dall'amministratore"
+
+#: /controllers/comments_controller.php:187
+msgid "The comment could not be saved. Please, try again."
+msgstr "Il commento non puo' essere salvato. Per favore, riprovare."
+
+#: /controllers/comments_controller.php:217
+msgid "Invalid Comment"
+msgstr "Commento non valido"
+
+#: /controllers/markers_controller.php:53
+#: /views/markers/index.ctp:49
+msgid "Welcome to Geo'n'rate"
+msgstr "Benvenuto su Geo'n'rate"
+
+#: /controllers/markers_controller.php:111
+msgid "Map and List View"
+msgstr "Vedi Mappa e Lista"
+
+#: /controllers/markers_controller.php:143;192
+msgid "Markers in a list"
+msgstr "Hot Spot nella lista"
+
+#: /controllers/markers_controller.php:337;447
+#: /controllers/pages_controller.php:173
+msgid "Add Marker"
+msgstr "Aggiungi Hot Spot"
+
+#: /controllers/markers_controller.php:405;546;759;858
+msgid "This marker could not be saved."
+msgstr "L'Hot Spot non puo' essere salvato."
+
+#: /controllers/markers_controller.php:501
+msgid "The Marker ID# %s has been saved. Please check your e-mail."
+msgstr "L'Hot Spot ID# %s e' stato salvato. Per favore controlla la tua e-mail."
+
+#: /controllers/markers_controller.php:605;666;692;828;918
+#: /controllers/twitter_controller.php:52
+msgid "This marker does not exist."
+msgstr "L'Hot Spot non esiste."
+
+#: /controllers/markers_controller.php:688
+#: /views/markers/edit.ctp:85
+msgid "Edit marker"
+msgstr "Modifica Hot Spot"
+
+#: /controllers/markers_controller.php:714
+msgid "Der Hinweis wurde gespeichert!"
+msgstr "La nota e' stata salvata!"
+
+#: /controllers/markers_controller.php:731
+msgid "The Status has been tweeted."
+msgstr "Il tweet dello stato è stato inviato"
+
+#: /controllers/markers_controller.php:742
+#: /controllers/components/twitter_service.php:341
+msgid "The Marker ID# %s has been saved. The user will be notified."
+msgstr "L'Hot Spot ID# %s e' stato salvato. L'utente ricevera' una notifica."
+
+#: /controllers/markers_controller.php:851
+msgid "This marker has been saved."
+msgstr "L'Hot Spot e' stato salvato."
+
+#: /controllers/markers_controller.php:1005
+msgid "Marker has been deleted"
+msgstr "Hot Spot eliminato"
+
+#: /controllers/markers_controller.php:1137
+#: /views/markers/index.ctp:52
+msgid "Managing Concerns of Public Space"
+msgstr "Gestione concernente lo spazio pubblico"
+
+#: /controllers/pages_controller.php:97
+msgid "Logged into Admin."
+msgstr "Acceduto come Admin."
+
+#: /controllers/pages_controller.php:103
+#: /plugins/configurator/controllers/configurations_controller.php:16;25;37;52
+msgid "Administration"
+msgstr "Amministrazione"
+
+#: /controllers/transactions_controller.php:34
+msgid "Invalid id for Transaction"
+msgstr "ID non valido per la Transazione"
+
+#: /controllers/twitter_controller.php:63
+msgid "Administrate incoming tweets"
+msgstr "Amministra tweet in entrata"
+
+#: /controllers/twitter_controller.php:198
+msgid "Sorry, something went wrong"
+msgstr "Spiacente, errore"
+
+#: /controllers/twitter_controller.php:231
+#: /controllers/users_controller.php:85
+msgid "Great, you signed up successfully. Please check your Mail."
+msgstr "Registrazione avvenuta con successo. Per favore controlla la tua posta."
+
+#: /controllers/twitter_controller.php:241
+msgid "Great, you signed up successfully with the help of your \n\t\t\t\t\t\ttwitter-account"
+msgstr "Registrazione avvenuta con successo con l'ausilio del tuo \n\t\t\t\t\t\ttwitter-account"
+
+#: /controllers/twitter_controller.php:277
+msgid "Great, you logged in successfully with the help of your \n\t\t\t\t\t\ttwitter-account"
+msgstr "Accesso avvenuto con successo con l'ausilio del tuo \n\t\t\t\t\t\ttwitter-account"
+
+#: /controllers/users_controller.php:37
+#: /views/elements/admin_sidebar.ctp:35
+#: /views/elements/navigation.ctp:30
+#: /views/elements/navigation_footer.ctp:14
+#: /views/markers/mobile/index.ctp:57
+#: /views/users/login.ctp:29;50
+#: /views/users/signup.ctp:84
+#: /views/users/mobile/login.ctp:24;28;46
+msgid "Log in"
+msgstr "Accedi"
+
+#: /controllers/users_controller.php:40
+msgid "You signed in successfully with your Facebook account"
+msgstr "Accesso avvenuto con successo tramite il tuo account Facebook"
+
+#: /controllers/users_controller.php:70
+#: /views/users/signup.ctp:29
+msgid "Sign up"
+msgstr "Accesso avvenuto"
+
+#: /controllers/users_controller.php:105
+msgid "We could&rsquo;nt sign up your account!"
+msgstr "L'accesso al tuo account non e' consentito!"
+
+#: /controllers/users_controller.php:150
+msgid "You are already confirmed as user."
+msgstr "Utente gia' precedentemente registrato."
+
+#: /controllers/users_controller.php:165
+msgid "You are now confirmed as user."
+msgstr "Conferma registrazione utente."
+
+#: /controllers/users_controller.php:183
+msgid "This User does not exist"
+msgstr "L'utente non esiste"
+
+#: /controllers/users_controller.php:197
+msgid "Your userdata and all markers have been deleted."
+msgstr "I tuoi dati utente ed i tuoi Hot Spot sono stati eliminati."
+
+#: /controllers/users_controller.php:204
+msgid "You logged out successfully"
+msgstr "Log out avvenuto con successo"
+
+#: /controllers/users_controller.php:224
+msgid "Lost Password"
+msgstr "Password dimenticata"
+
+#: /controllers/users_controller.php:232
+msgid "We could not find your e-mail"
+msgstr "E-mail non trovata"
+
+#: /controllers/users_controller.php:253
+msgid "Please check your mail to receive more details."
+msgstr "Per favore controlla la posta per ulteriori dettagli."
+
+#: /controllers/users_controller.php:259
+msgid "The ticket could not be sent."
+msgstr "Il ticket non può essere inviato."
+
+#: /controllers/users_controller.php:295
+msgid "Now enter your new password below."
+msgstr "Ora inserisci la nuova password"
+
+#: /controllers/users_controller.php:300
+msgid "Your ticket is no longer available."
+msgstr "Il tuo ticket non è più disponibile."
+
+#: /controllers/users_controller.php:317
+msgid "Enter new Password"
+msgstr "Inserisci una nuova password"
+
+#: /controllers/users_controller.php:344;482
+msgid "Your password has been changed"
+msgstr "La tua password e' stata modificata"
+
+#: /controllers/users_controller.php:349;487
+msgid "Your password could not be changed."
+msgstr "La tua password non può essere modificata."
+
+#: /controllers/users_controller.php:363
+msgid "We could not find this user."
+msgstr "Impossibile trovare l'utente."
+
+#: /controllers/users_controller.php:370
+msgid "This User and all his data has been deleted"
+msgstr "L'utente e tutti i suoi dati sono stati eliminati"
+
+#: /controllers/users_controller.php:399;433;459
+msgid "Invalid user"
+msgstr "Utente non valido"
+
+#: /controllers/users_controller.php:416;439
+msgid "The user has been saved"
+msgstr "Utente salvato"
+
+#: /controllers/users_controller.php:419;443
+msgid "The user could not be saved. Please, try again."
+msgstr "L'utente non puo' essere salvato. Per favore, riprovare."
+
+#: /controllers/users_controller.php:498
+msgid "Invalid id for user"
+msgstr "ID non valido per l'utente"
+
+#: /controllers/users_controller.php:513
+msgid "User deleted"
+msgstr "Utente cancellato"
+
+#: /controllers/components/transaction.php:56
+msgid "Marker edited by authorities"
+msgstr "Hot Spot modificato dall'amministratore"
+
+#: /controllers/components/transaction.php:60
+msgid "Marker edited by user"
+msgstr "Hot Spot modificato dall'utente"
+
+#: /controllers/components/transaction.php:64;68
+msgid "Marker added"
+msgstr "Aggiunta proposta"
+
+#: /controllers/components/transaction.php:72
+msgid "Marker added by API"
+msgstr "Aggiunta proposta Hot Spot da API"
+
+#: /controllers/components/transaction.php:76
+msgid "Marker edited by API"
+msgstr " Mdificato Hot Spot da API"
+
+#: /controllers/components/transaction.php:81
+msgid "Marker viewed"
+msgstr "Hot Spot visualizzato"
+
+#: /controllers/components/transaction.php:85
+msgid "Marker&rsquo;s position fixed or moved"
+msgstr "Posizione dell'Hot Spot fissata o spostata"
+
+#: /controllers/components/transaction.php:89
+msgid "Marker has been rated"
+msgstr "L'Hot Spot è stato classificato"
+
+#: /controllers/components/transaction.php:93
+msgid "Marker has been voted"
+msgstr "Votato"
+
+#: /controllers/components/transaction.php:97
+msgid "Comment added"
+msgstr "Aggiunto commento"
+
+#: /controllers/components/transaction.php:102
+msgid "Marker added via Twitter"
+msgstr "Hot Spot aggiunto tramite Twitter"
+
+#: /controllers/components/transaction.php:109
+msgid "Marker edited Mobile"
+msgstr "Hot Spot modificato tramite Mobile"
+
+#: /controllers/components/twitter_service.php:48
+msgid "Twitter Reply More Information: "
+msgstr "Twitter invia altre informazioni: "
+
+#: /controllers/components/twitter_service.php:52
+msgid "Twitter Details needed"
+msgstr "Necessari dettagli di Twitter"
+
+#: /controllers/components/twitter_service.php:56
+msgid "Twitter Address needed"
+msgstr "Necessario indirizzo Twitter"
+
+#: /controllers/components/twitter_service.php:60
+msgid "Twitter Picture available?"
+msgstr "Immagine Twitter disponibile?"
+
+#: /controllers/components/twitter_service.php:76
+msgid "Twitter Success Thanks! Your ID:  "
+msgstr "Twitter Ok Grazie! Il tuo ID:  "
+
+#: /controllers/components/twitter_service.php:301
+msgid "Twitter-Report"
+msgstr "Report Twitter"
+
+#: /models/marker.php:218;235;248
+msgid "New Marker ID#"
+msgstr "Hot Spot ID "
+
+#: /models/marker.php:220;237;250
+msgid "Not yet published"
+msgstr "Non ancora pubblicato"
+
+#: /plugins/configurator/views/configurations/admin_add.ctp:6
+#: /plugins/configurator/views/configurations/admin_edit.ctp:6
+#: /plugins/configurator/views/configurations/admin_index.ctp:6
+#: /plugins/configurator/views/configurations/admin_view.ctp:6
+#: /plugins/install/views/install/data.ctp:6
+#: /plugins/install/views/install/database.ctp:6
+#: /plugins/install/views/install/finish.ctp:6
+#: /plugins/install/views/install/index.ctp:6
+#: /views/categories/admin_add.ctp:28
+#: /views/categories/admin_edit.ctp:28
+#: /views/categories/admin_index.ctp:28
+#: /views/categories/admin_view.ctp:28
+#: /views/layouts/default_install.ctp:24;24
+#: /views/layouts/default_marker.ctp:33;33
+#: /views/layouts/default_page.ctp:33;33
+#: /views/layouts/default_splash.ctp:33;33
+#: /views/markers/add.ctp:31
+#: /views/markers/admin_edit.ctp:31
+#: /views/markers/app.ctp:26
+#: /views/markers/edit.ctp:31
+#: /views/markers/index.ctp:32
+#: /views/markers/liste.ctp:25
+#: /views/markers/preview.ctp:28
+#: /views/markers/search.ctp:31
+#: /views/markers/startup.ctp:29
+#: /views/markers/view.ctp:23
+#: /views/pages/admin_index.ctp:22
+#: /views/pages/contact.ctp:22
+#: /views/pages/faq.ctp:22
+#: /views/pages/imprint.ctp:22
+#: /views/twitter/admin_index.ctp:28
+#: /views/twitter/callback.ctp:25
+#: /views/users/admin_add.ctp:28
+#: /views/users/admin_edit.ctp:27
+#: /views/users/admin_index.ctp:27
+#: /views/users/admin_password.ctp:28
+#: /views/users/admin_view.ctp:27
+#: /views/users/login.ctp:24
+#: /views/users/newpassword.ctp:23
+#: /views/users/resetpassword.ctp:22
+#: /views/users/signup.ctp:24
+msgid "Home"
+msgstr "Home"
+
+#: /plugins/configurator/views/configurations/admin_add.ctp:12
+#: /plugins/configurator/views/configurations/admin_edit.ctp:12
+#: /plugins/configurator/views/configurations/admin_index.ctp:12
+#: /plugins/configurator/views/configurations/admin_view.ctp:12
+#: /views/categories/admin_add.ctp:34
+#: /views/categories/admin_edit.ctp:34
+#: /views/categories/admin_index.ctp:34
+#: /views/categories/admin_view.ctp:34
+#: /views/elements/navigation.ctp:20
+#: /views/markers/admin_edit.ctp:37
+#: /views/pages/admin_index.ctp:28;64
+#: /views/twitter/admin_index.ctp:34
+#: /views/users/admin_add.ctp:33
+#: /views/users/admin_edit.ctp:33
+#: /views/users/admin_index.ctp:33
+#: /views/users/admin_password.ctp:35
+#: /views/users/admin_view.ctp:32
+msgid "Admin Dashboard"
+msgstr "Amministrazione"
+
+#: /plugins/configurator/views/configurations/admin_add.ctp:20
+#: /plugins/configurator/views/configurations/admin_edit.ctp:22
+#: /plugins/configurator/views/configurations/admin_index.ctp:21
+#: /plugins/configurator/views/configurations/admin_view.ctp:22
+#: /views/elements/admin_sidebar.ctp:21
+#: /plugins/configurator/views/configurations/admin_view.ctp:44
+msgid "Configuration"
+msgstr "Configurazione"
+
+#: /plugins/configurator/views/configurations/admin_add.ctp:43
+msgid "Add Configuration Property"
+msgstr "Aggiungi proprieta' di configurazione"
+
+#: /plugins/configurator/views/configurations/admin_add.ctp:64
+#: /plugins/configurator/views/configurations/admin_edit.ctp:72
+#: /views/markers/admin_edit.ctp:151
+#: /views/markers/edit.ctp:91
+#: /views/twitter/admin_index.ctp:165
+msgid "<span>Save information</span>"
+msgstr "<span>Salva informazione</span>"
+
+#: /plugins/configurator/views/configurations/admin_edit.ctp:62
+msgid "enabled?"
+msgstr "abilitato?"
+
+#: /plugins/configurator/views/configurations/admin_index.ctp:81
+#: /views/comments/index.ctp:54
+#: /views/districts/index.ctp:58
+#: /views/markers/admin_edit.ctp:74;76
+#: /views/markers/edit.ctp:72;74
+#: /views/statuses/admin_index.ctp:50
+#: /views/statuses/index.ctp:50
+#: /views/users/admin_view.ctp:169;249;293;333
+msgid "View"
+msgstr "Vedi"
+
+#: /plugins/configurator/views/configurations/admin_index.ctp:87
+#: /views/comments/index.ctp:55
+#: /views/districts/index.ctp:59
+#: /views/statuses/admin_index.ctp:51
+#: /views/statuses/index.ctp:51
+#: /views/users/admin_view.ctp:170;250;294;334
+#: /plugins/configurator/views/configurations/admin_view.ctp:76
+msgid "Edit"
+msgstr "Modifica"
+
+#: /plugins/configurator/views/configurations/admin_index.ctp:93
+#: /views/categories/admin_index.ctp:72
+#: /views/comments/edit.ctp:17
+#: /views/comments/index.ctp:56
+#: /views/districts/edit.ctp:18
+#: /views/districts/index.ctp:60
+#: /views/markers/admin_edit.ctp:80
+#: /views/markers/ajaxlist.ctp:206
+#: /views/markers/app.ctp:104
+#: /views/markers/edit.ctp:78
+#: /views/markers/liste.ctp:117
+#: /views/markers/preview.ctp:107
+#: /views/markers/view.ctp:97
+#: /views/markers/mobile/preview.ctp:165
+#: /views/markers/mobile/view.ctp:160
+#: /views/pages/admin_index.ctp:79
+#: /views/statuses/admin_edit.ctp:18
+#: /views/statuses/admin_index.ctp:52
+#: /views/statuses/edit.ctp:18
+#: /views/statuses/index.ctp:52
+#: /views/users/admin_index.ctp:189
+#: /views/users/admin_view.ctp:171;251;295;335
+#: /plugins/configurator/views/configurations/admin_view.ctp:77
+msgid "Delete"
+msgstr "Cancella"
+
+#: /plugins/configurator/views/configurations/admin_index.ctp:95
+msgid "Are you sure to delete config # %s?"
+msgstr "Sicuro di voler rimuovere configurazione # %s?"
+
+#: /plugins/configurator/views/configurations/admin_index.ctp:106
+#: /views/users/admin_index.ctp:210
+msgid "Add"
+msgstr "Aggiungi"
+
+#: /plugins/install/controllers/install_controller.php:98
+msgid "Installation: Welcome"
+msgstr "Installazione: Benvenuto"
+
+#: /plugins/install/controllers/install_controller.php:113
+msgid "Step 1: Database connection"
+msgstr "Step 1: Connessione al Database"
+
+#: /plugins/install/controllers/install_controller.php:131;173
+msgid "Could not connect to database."
+msgstr "Impossibile connettersi al database"
+
+#: /plugins/install/controllers/install_controller.php:152
+msgid "Could not write database.php file."
+msgstr "Impossibile scrivere sul file database.php."
+
+#: /plugins/install/controllers/install_controller.php:164
+msgid "Step 2: Build database and data"
+msgstr "Step 2: Costruzione database e dati"
+
+#: /plugins/install/controllers/install_controller.php:203
+msgid "Installation completed successfully"
+msgstr "Installazione conclusa con successo"
+
+#: /plugins/install/controllers/install_controller.php:210
+msgid "Installation files deleted successfully."
+msgstr "File di installazione eliminati con successo."
+
+#: /plugins/install/controllers/install_controller.php:213
+msgid "Could not delete installation files."
+msgstr "Impossibile eliminare i file di installazione."
+
+#: /plugins/install/views/install/data.ctp:12
+#: /plugins/install/views/install/database.ctp:12
+#: /plugins/install/views/install/finish.ctp:12
+#: /plugins/install/views/install/index.ctp:12
+msgid "Installation"
+msgstr "Installazione"
+
+#: /plugins/install/views/install/data.ctp:29
+msgid "Click here to build your database"
+msgstr "Clicca qui per costruire il tuo database"
+
+#: /plugins/install/views/install/finish.ctp:40
+msgid "Click here to delete installation files"
+msgstr "Clicca qui per eliminare i file di installazione"
+
+#: /plugins/install/views/install/index.ctp:32
+msgid "Your tmp directory is writable."
+msgstr "Directory tmp scrivibile."
+
+#: /plugins/install/views/install/index.ctp:35
+msgid "Your tmp directory is NOT writable."
+msgstr "Directory tmp NON scrivibile."
+
+#: /plugins/install/views/install/index.ctp:40
+msgid "Your config directory is writable."
+msgstr "Directory config scrivibile."
+
+#: /plugins/install/views/install/index.ctp:43
+msgid "Your config directory is NOT writable."
+msgstr "Directory config NON scrivibile."
+
+#: /plugins/install/views/install/index.ctp:48
+msgid "PHP version %s > 5"
+msgstr "Versione PHP %s > 5"
+
+#: /plugins/install/views/install/index.ctp:51
+msgid "PHP version %s < 5"
+msgstr "Versione PHP %s < 5"
+
+#: /plugins/install/views/install/index.ctp:55
+msgid "Click here to begin installation"
+msgstr "Clicca qui per iniziare l'installazione"
+
+#: /plugins/install/views/install/index.ctp:57
+msgid "Installation cannot continue as minimum requirements are not met."
+msgstr ""
+
+#: /plugins/js_validate/controllers/js_validate_controller.php:33;39
+#: /webroot/test.php:88
+msgid "Debug setting does not allow access to this url."
+msgstr ""
+
+#: /plugins/js_validate/views/helpers/validation.php:71
+msgid "There was a problem with the field"
+msgstr ""
+
+#: /plugins/js_validate/views/layouts/default.ctp:30
+msgid "CakePHP: the rapid development php framework:"
+msgstr ""
+
+#: /plugins/js_validate/views/layouts/default.ctp:45;56
+msgid "CakePHP: the rapid development php framework"
+msgstr ""
+
+#: /plugins/media/vendors/shells/media.php:94
+#: /views/layouts/default_marker.ctp:65
+#: /views/layouts/default_page.ctp:63
+#: /views/layouts/default_splash.ctp:63
+msgid "What would you like to do?"
+msgstr "Cosa vuoi fare?"
+
+#: /plugins/media/views/elements/attachments.ctp:59
+msgid "%s"
+msgstr "%s"
+
+#: /plugins/media/views/elements/attachments.ctp:70
+msgid "File"
+msgstr "File"
+
+#: /plugins/media/views/elements/attachments.ctp:73
+msgid "An error occured while transferring the file."
+msgstr "Errore nel trasferimento del file"
+
+#: /plugins/media/views/elements/attachments.ctp:74
+msgid "The file is invalid."
+msgstr "File non valido."
+
+#: /plugins/media/views/elements/attachments.ctp:75
+msgid "The file cannot be processed."
+msgstr "Il file non può essere elaborato."
+
+#: /plugins/media/views/elements/attachments.ctp:76
+msgid "The file cannot be transferred from or to location."
+msgstr ""
+
+#: /plugins/media/views/elements/attachments.ctp:77
+msgid "Executable files cannot be uploaded."
+msgstr ""
+
+#: /plugins/media/views/elements/attachments.ctp:78;79
+msgid "The file is too large."
+msgstr ""
+
+#: /plugins/media/views/elements/attachments.ctp:80
+msgid "The file has the wrong extension."
+msgstr ""
+
+#: /plugins/media/views/elements/attachments.ctp:81
+msgid "The file has the wrong MIME type."
+msgstr ""
+
+#: /plugins/media/views/elements/attachments.ctp:84
+msgid "Textual replacement"
+msgstr ""
+
+#: /plugins/media/views/elements/attachments.ctp:86
+msgid "A textual replacement must be provided."
+msgstr ""
+
+#: /plugins/media/views/elements/attachments.ctp:129
+msgid "Release"
+msgstr "Elimina"
+
+#: /plugins/rating/config/plugin_rating.php:31
+msgid "Your rating has been saved."
+msgstr "La tua classificazione e' stata salvata."
+
+#: /plugins/rating/config/plugin_rating.php:172
+msgid "Please log in first"
+msgstr "Per favore effettua prima il log in"
+
+#: /plugins/rating/config/plugin_rating.php:173
+msgid "Thank you for voting"
+msgstr "Grazie per aver votato"
+
+#: /plugins/rating/config/plugin_rating.php:174
+msgid "Click to undo rating"
+msgstr "Clicca per annullare la classificazione"
+
+#: /plugins/rating/config/plugin_rating.php:175
+msgid "Who cares!"
+msgstr "Per nulla importante!"
+
+#: /plugins/rating/config/plugin_rating.php:176
+msgid "Very unimportant"
+msgstr "Scarsamente importante"
+
+#: /plugins/rating/config/plugin_rating.php:177
+msgid "Relevant"
+msgstr "Abbastanza rilevante"
+
+#: /plugins/rating/config/plugin_rating.php:178
+msgid "Important"
+msgstr "Importante"
+
+#: /plugins/rating/config/plugin_rating.php:179
+msgid "Hot spot!"
+msgstr "Molto importante!"
+
+#: /plugins/rating/config/plugin_rating.php:181
+#: /views/markers/view.ctp:154
+#: /views/markers/mobile/preview.ctp:81
+#: /views/markers/mobile/view.ctp:77
+msgid "Please rate this Marker"
+msgstr "Per favore classifica questo Hot Spot"
+
+#: /plugins/rating/controllers/ratings_controller.php:137
+msgid "Vote(s)"
+msgstr "Vota (s)"
+
+#: /plugins/rating/views/helpers/rating.php:56
+msgid "Rate it with "
+msgstr "Vota con "
+
+#: /plugins/rating/views/ratings/view.ctp:36
+#: /plugins/voting/views/votings/view.ctp:12
+msgid "Your are guest and not allowed to vote here"
+msgstr "Sei un ospite e non hai il permesso di votare"
+
+#: /plugins/rating/views/ratings/view.ctp:76;78
+msgid "Vote"
+msgstr "Vota"
+
+#: /plugins/voting/config/plugin_voting.php:35
+msgid "Thank you for voting."
+msgstr "Grazie per aver votato."
+
+#: /plugins/voting/config/plugin_voting.php:68
+msgid "Vote Yes"
+msgstr "Vota Si"
+
+#: /plugins/voting/config/plugin_voting.php:69
+msgid "Yes"
+msgstr "Si"
+
+#: /plugins/voting/config/plugin_voting.php:72
+msgid "Vote No"
+msgstr "Vota No"
+
+#: /plugins/voting/config/plugin_voting.php:73
+msgid "No"
+msgstr "No"
+
+#: /plugins/voting/config/plugin_voting.php:76;77
+msgid "Abstain"
+msgstr "Astensione"
+
+#: /plugins/voting/config/plugin_voting.php:109
+msgid "We got #VOTES# vote(s) for this Marker."
+msgstr "Abbiamo #VOTES# voto(i) per questo Hot Spot."
+
+#: /plugins/voting/config/plugin_voting.php:121
+msgid "%VOTES%%"
+msgstr ""
+
+#: /plugins/voting/views/demo/index.ctp:12
+msgid "Do you like this plugin?"
+msgstr "Ti piace questo plugin?"
+
+#: /plugins/voting/views/demo/index.ctp:26
+msgid "Do you really like this plugin?"
+msgstr "Ti piace molto questo plugin?"
+
+#: /views/categories/admin_add.ctp:42
+#: /views/categories/admin_edit.ctp:42
+#: /views/categories/admin_index.ctp:42
+#: /views/categories/admin_view.ctp:42
+#: /views/elements/admin_sidebar.ctp:24
+msgid "Categories"
+msgstr "Categorie"
+
+#: /views/categories/admin_add.ctp:49
+#: /views/markers/edit.ctp:43
+msgid "Edit details"
+msgstr "Modifica dettagli"
+
+#: /views/categories/admin_add.ctp:69;73
+msgid "Add Category"
+msgstr "Aggiungi Categoria"
+
+#: /views/categories/admin_add.ctp:84
+#: /views/elements/form_add_edit_admin.ctp:15
+#: /views/elements/form_startup.ctp:15
+#: /views/markers/mobile/add.ctp:98
+#: /views/markers/mobile/startup.ctp:100
+msgid "<div>Please take a look at the categories</div>"
+msgstr "<div>Guarda le categorie</div>"
+
+#: /views/categories/admin_add.ctp:84
+#: /views/elements/admin_sidebar.ctp:26
+#: /views/users/admin_view.ctp:59
+#: /views/users/newpassword.ctp:51
+msgid "User"
+msgstr "Utente"
+
+#: /views/categories/admin_add.ctp:84
+#: /views/categories/admin_edit.ctp:78
+#: /views/elements/form_add_edit_admin.ctp:15
+#: /views/elements/form_startup.ctp:15
+#: /views/markers/admin_edit.ctp:113
+#: /views/markers/mobile/add.ctp:98
+#: /views/markers/mobile/startup.ctp:100
+#: /views/twitter/admin_index.ctp:113;117
+msgid "Please choose"
+msgstr "Per favore scegli"
+
+#: /views/categories/admin_edit.ctp:49;69
+#: /views/categories/admin_view.ctp:69
+msgid "Edit Category"
+msgstr "Modifica Categoria"
+
+#: /views/categories/admin_edit.ctp:74
+msgid "Category Name"
+msgstr "Nome Categoria"
+
+#: /views/categories/admin_edit.ctp:75
+msgid "Category Hex"
+msgstr ""
+
+#: /views/categories/admin_edit.ctp:77
+msgid "Parent category"
+msgstr ""
+
+#: /views/categories/admin_edit.ctp:78
+msgid "<div>Please choose the owner of category</div>"
+msgstr ""
+
+#: /views/categories/admin_edit.ctp:78
+msgid "E-Mail-Adress"
+msgstr ""
+
+#: /views/categories/admin_index.ctp:62
+msgid "Admin Categories"
+msgstr ""
+
+#: /views/categories/admin_index.ctp:69
+#: /views/markers/ajaxlist.ctp:125;200
+#: /views/markers/app.ctp:100
+#: /views/markers/liste.ctp:113
+#: /views/markers/preview.ctp:93
+#: /views/markers/view.ctp:85
+#: /views/markers/mobile/preview.ctp:159
+#: /views/markers/mobile/view.ctp:154
+#: /views/users/admin_index.ctp:142;183
+msgid "edit"
+msgstr "Modifica"
+
+#: /views/categories/admin_index.ctp:70
+msgid "up"
+msgstr ""
+
+#: /views/categories/admin_index.ctp:71
+msgid "down"
+msgstr ""
+
+#: /views/categories/admin_view.ctp:49
+msgid "View Category"
+msgstr ""
+
+#: /views/categories/admin_view.ctp:71
+#: /views/comments/view.ctp:5
+#: /views/districts/view.ctp:7
+#: /views/statuses/admin_view.ctp:7
+#: /views/statuses/view.ctp:7
+#: /views/users/admin_view.ctp:63;137;189;269;313
+msgid "Id"
+msgstr ""
+
+#: /views/categories/admin_view.ctp:76
+#: /views/statuses/admin_view.ctp:12
+#: /views/statuses/view.ctp:12
+msgid "Parent Id"
+msgstr ""
+
+#: /views/categories/admin_view.ctp:81
+#: /views/statuses/admin_view.ctp:17
+#: /views/statuses/view.ctp:17
+msgid "Lft"
+msgstr ""
+
+#: /views/categories/admin_view.ctp:86
+#: /views/statuses/admin_view.ctp:22
+#: /views/statuses/view.ctp:22
+msgid "Rght"
+msgstr ""
+
+#: /views/categories/admin_view.ctp:91
+#: /views/districts/view.ctp:22
+#: /views/elements/form_startup.ctp:27
+#: /views/statuses/admin_view.ctp:27
+#: /views/statuses/view.ctp:27
+#: /views/users/admin_view.ctp:141;271;314
+#: /views/users/signup.ctp:67
+msgid "Name"
+msgstr "Nome"
+
+#: /views/categories/admin_view.ctp:96
+#: /views/statuses/admin_view.ctp:32
+#: /views/statuses/view.ctp:32
+msgid "Hex"
+msgstr ""
+
+#: /views/categories/admin_view.ctp:105
+msgid "Edit Cat"
+msgstr ""
+
+#: /views/categories/admin_view.ctp:106
+msgid "Delete Cat"
+msgstr ""
+
+#: /views/categories/admin_view.ctp:106
+#: /views/comments/edit.ctp:17
+#: /views/comments/index.ctp:56
+#: /views/comments/view.ctp:45
+#: /views/districts/edit.ctp:18
+#: /views/districts/index.ctp:60
+#: /views/districts/view.ctp:52
+#: /views/statuses/admin_edit.ctp:18
+#: /views/statuses/admin_index.ctp:52
+#: /views/statuses/admin_view.ctp:42
+#: /views/statuses/edit.ctp:18
+#: /views/statuses/index.ctp:52
+#: /views/statuses/view.ctp:42
+#: /views/users/admin_view.ctp:119;171;251;295;335
+msgid "Are you sure you want to delete # %s?"
+msgstr ""
+
+#: /views/categories/admin_view.ctp:107
+msgid "List Categories"
+msgstr ""
+
+#: /views/categories/admin_view.ctp:108
+msgid "New Cat"
+msgstr ""
+
+#: /views/comments/add.ctp:4
+#: /views/elements/form_comments.ctp:31
+msgid "Add Comment"
+msgstr "Aggiungi commento"
+
+#: /views/comments/add.ctp:16
+#: /views/comments/edit.ctp:18
+#: /views/comments/view.ctp:46
+#: /views/users/admin_view.ctp:122
+msgid "List Comments"
+msgstr "Lista commenti"
+
+#: /views/comments/add.ctp:17
+#: /views/comments/edit.ctp:19
+#: /views/comments/index.ctp:70
+#: /views/comments/view.ctp:48
+#: /views/districts/add.ctp:18
+#: /views/districts/edit.ctp:20
+#: /views/districts/index.ctp:74
+#: /views/districts/view.ctp:55
+#: /views/elements/navigation.ctp:5
+#: /views/elements/navigation_footer.ctp:4
+#: /views/users/admin_view.ctp:124
+msgid "List Markers"
+msgstr "Lista Hot Spot"
+
+#: /views/comments/add.ctp:18
+#: /views/comments/edit.ctp:20
+#: /views/comments/index.ctp:71
+#: /views/comments/view.ctp:49
+#: /views/districts/add.ctp:19
+#: /views/districts/edit.ctp:21
+#: /views/districts/index.ctp:75
+#: /views/districts/view.ctp:56
+#: /views/users/admin_view.ctp:125;260
+msgid "New Marker"
+msgstr "Nuovo Hot Spot"
+
+#: /views/comments/edit.ctp:4
+#: /views/comments/view.ctp:44
+msgid "Edit Comment"
+msgstr "Modifica commento"
+
+#: /views/comments/index.ctp:2
+#: /views/elements/form_comments.ctp:1
+#: /views/elements/infofooter.ctp:10
+#: /views/markers/admin_edit.ctp:157
+#: /views/pages/admin_index.ctp:153
+msgid "Comments"
+msgstr "Commenti inseriti dagli utenti"
+
+#: /views/comments/index.ctp:9
+#: /views/districts/index.ctp:9
+#: /views/statuses/admin_index.ctp:9
+#: /views/statuses/index.ctp:9
+#: /views/users/admin_index.ctp:217
+#: /plugins/configurator/views/configurations/admin_index.ctp:109
+msgid "Page %page% of %pages%, showing %current% records out of %count% total, starting on record %start%, ending on %end%"
+msgstr ""
+
+#: /views/comments/index.ctp:21
+#: /views/districts/index.ctp:22
+#: /views/markers/admin_edit.ctp:70
+#: /views/markers/ajaxlist.ctp:142
+#: /views/markers/edit.ctp:68
+#: /views/markers/preview.ctp:88
+#: /views/markers/view.ctp:78
+#: /views/statuses/admin_index.ctp:20
+#: /views/statuses/index.ctp:20
+#: /views/users/admin_index.ctp:153
+#: /views/users/admin_view.ctp:116;147;213;275;317
+#: /plugins/configurator/views/configurations/admin_index.ctp:51;105
+#: /plugins/configurator/views/configurations/admin_view.ctp:74
+msgid "Actions"
+msgstr "Azioni"
+
+#: /views/comments/index.ctp:63
+#: /views/districts/index.ctp:67
+#: /views/statuses/admin_index.ctp:59
+#: /views/statuses/index.ctp:59
+msgid "Previous"
+msgstr "Precedente"
+
+#: /views/comments/index.ctp:65
+#: /views/districts/index.ctp:69
+#: /views/statuses/admin_index.ctp:61
+#: /views/statuses/index.ctp:61
+#: /views/users/admin_index.ctp:225
+#: /plugins/configurator/views/configurations/admin_index.ctp:114
+msgid "next"
+msgstr "successivo"
+
+#: /views/comments/index.ctp:69
+#: /views/comments/view.ctp:47
+#: /views/users/admin_view.ctp:123;180
+msgid "New Comment"
+msgstr "Nuovo commento"
+
+#: /views/comments/view.ctp:2;20
+#: /views/markers/admin_edit.ctp:142
+#: /views/users/admin_view.ctp:143
+msgid "Comment"
+msgstr "Commento"
+
+#: /views/comments/view.ctp:10
+#: /views/districts/view.ctp:17
+msgid "Marker"
+msgstr "Hot Spot"
+
+#: /views/comments/view.ctp:15
+msgid "Title"
+msgstr "Titolo"
+
+#: /views/comments/view.ctp:25
+#: /views/markers/ajaxlist.ctp:132
+#: /views/markers/app.ctp:74
+#: /views/markers/liste.ctp:81
+#: /views/markers/preview.ctp:122
+#: /views/markers/view.ctp:112
+#: /views/markers/mobile/preview.ctp:42;58
+#: /views/markers/mobile/view.ctp:38;54
+#: /views/statuses/admin_view.ctp:2
+#: /views/statuses/view.ctp:2
+#: /views/users/admin_view.ctp:144
+msgid "Status"
+msgstr "Stato"
+
+#: /views/comments/view.ctp:30
+#: /views/districts/view.ctp:37
+#: /views/users/admin_view.ctp:103;145;203;273;315
+#: /plugins/configurator/views/configurations/admin_view.ctp:56
+msgid "Created"
+msgstr "Creato"
+
+#: /views/comments/view.ctp:35
+#: /views/districts/view.ctp:42
+#: /views/markers/ajaxlist.ctp:138
+#: /views/markers/app.ctp:76
+#: /views/markers/liste.ctp:83
+#: /views/users/admin_view.ctp:108;146;204;274;316
+#: /plugins/configurator/views/configurations/admin_view.ctp:61
+msgid "Modified"
+msgstr "Modificato"
+
+#: /views/comments/view.ctp:45
+msgid "Delete Comment"
+msgstr "Elimina commento"
+
+#: /views/districts/add.ctp:4
+msgid "Add District"
+msgstr "Aggiungi distretto"
+
+#: /views/districts/add.ctp:17
+#: /views/districts/edit.ctp:19
+#: /views/districts/view.ctp:53
+msgid "List Districts"
+msgstr "Lista distretti"
+
+#: /views/districts/edit.ctp:4
+#: /views/districts/view.ctp:51
+msgid "Edit District"
+msgstr "Modifica distretto"
+
+#: /views/districts/index.ctp:2
+msgid "Districts"
+msgstr "Distretti"
+
+#: /views/districts/index.ctp:73
+#: /views/districts/view.ctp:54
+msgid "New District"
+msgstr "Nuovo distretto"
+
+#: /views/districts/view.ctp:2
+#: /views/markers/app.ctp:73
+#: /views/markers/liste.ctp:80
+msgid "District"
+msgstr "Distretto"
+
+#: /views/districts/view.ctp:12
+msgid "City Id"
+msgstr "ID citta'"
+
+#: /views/districts/view.ctp:27
+#: /views/users/admin_view.ctp:201
+msgid "Lat"
+msgstr "Lat"
+
+#: /views/districts/view.ctp:32
+#: /views/users/admin_view.ctp:202
+msgid "Lon"
+msgstr "Lon"
+
+#: /views/districts/view.ctp:52
+msgid "Delete District"
+msgstr "Elimina distretto"
+
+#: /views/elements/admin_sidebar.ctp:3
+#: /views/elements/infofooter.ctp:6
+#: /views/markers/app.ctp:162
+msgid "Markers"
+msgstr "Hot Spot"
+
+#: /views/elements/admin_sidebar.ctp:5
+msgid "Users"
+msgstr "Utenti"
+
+#: /views/elements/admin_sidebar.ctp:8
+#: /views/elements/navigation.ctp:8
+#: /views/elements/navigation_footer.ctp:6
+msgid "Your markers"
+msgstr "Le tue proposte"
+
+#: /views/elements/admin_sidebar.ctp:10
+#: /views/elements/navigation.ctp:10
+#: /views/elements/navigation_footer.ctp:7
+msgid "Add another marker"
+msgstr "Proponi un Hot Spot"
+
+#: /views/elements/admin_sidebar.ctp:14
+#: /views/elements/navigation.ctp:14
+#: /views/elements/navigation_footer.ctp:9
+#: /views/markers/add.ctp:27
+#: /views/markers/startup.ctp:25
+#: /views/markers/mobile/add.ctp:25
+#: /views/markers/mobile/startup.ctp:26
+#: /views/pages/mobile/display.ctp:24
+#: /views/users/newpassword.ctp:62
+msgid "Add a marker"
+msgstr "Proponi un Hot Spot"
+
+#: /views/elements/admin_sidebar.ctp:28
+msgid "Twitter"
+msgstr "Twitter"
+
+#: /views/elements/admin_sidebar.ctp:41
+#: /views/elements/navigation.ctp:51
+#: /views/elements/navigation_footer.ctp:20
+#: /views/elements/welcome.ctp:28
+msgid "Facebook logout"
+msgstr "Logout Facebook"
+
+#: /views/elements/admin_sidebar.ctp:43
+#: /views/elements/navigation.ctp:46;54
+#: /views/elements/navigation_footer.ctp:22
+#: /views/markers/mobile/index.ctp:64
+msgid "Log out"
+msgstr "Log out"
+
+#: /views/elements/form_add_edit_admin.ctp:6
+#: /views/elements/form_startup.ctp:2
+msgid "<div>Enter a short subject</div>"
+msgstr "<div>Inserisci un breve oggetto</div>"
+
+#: /views/elements/form_add_edit_admin.ctp:6
+#: /views/elements/form_startup.ctp:2
+#: /views/markers/admin_edit.ctp:94
+#: /views/markers/app.ctp:71
+#: /views/markers/liste.ctp:78
+#: /views/markers/mobile/add.ctp:74
+#: /views/markers/mobile/startup.ctp:76
+#: /views/users/admin_view.ctp:195
+msgid "Subject"
+msgstr "Oggetto"
+
+#: /views/elements/form_add_edit_admin.ctp:7
+#: /views/elements/form_startup.ctp:3
+msgid "<div>Enter address or drag marker</div>"
+msgstr "<div>Trascina l'Hot Spot</div>"
+
+#: /views/elements/form_add_edit_admin.ctp:7
+#: /views/elements/form_startup.ctp:3
+#: /views/markers/admin_edit.ctp:97
+#: /views/markers/app.ctp:93
+#: /views/markers/liste.ctp:106
+#: /views/markers/ajaxlist.ctp:133
+#: /views/markers/preview.ctp:137
+#: /views/markers/view.ctp:127
+#: /views/markers/mobile/add.ctp:52
+#: /views/markers/mobile/preview.ctp:69
+#: /views/markers/mobile/startup.ctp:54
+#: /views/markers/mobile/view.ctp:65
+msgid "Address"
+msgstr "Indirizzo"
+
+#: /views/elements/form_add_edit_admin.ctp:9
+#: /views/elements/form_startup.ctp:4
+#: /views/markers/admin_edit.ctp:100
+#: /views/markers/mobile/add.ctp:58
+#: /views/markers/mobile/startup.ctp:60
+#: /views/users/admin_view.ctp:199
+msgid "Zip"
+msgstr "CAP"
+
+#: /views/elements/form_add_edit_admin.ctp:11
+#: /views/elements/form_startup.ctp:6
+#: /views/markers/admin_edit.ctp:102
+#: /views/markers/mobile/add.ctp:65
+#: /views/markers/mobile/startup.ctp:67
+#: /views/users/admin_view.ctp:200
+msgid "City"
+msgstr "Citta'"
+
+#: /views/elements/form_add_edit_admin.ctp:13
+#: /views/elements/form_startup.ctp:8
+#: /views/markers/mobile/add.ctp:81
+#: /views/markers/mobile/startup.ctp:83
+msgid "Describe the situation"
+msgstr "Motivazione"
+
+#: /views/elements/form_add_edit_admin.ctp:15
+#: /views/elements/form_startup.ctp:15
+#: /views/markers/admin_edit.ctp:113
+#: /views/markers/app.ctp:72
+#: /views/markers/liste.ctp:79
+#: /views/markers/preview.ctp:118
+#: /views/markers/view.ctp:108
+#: /views/markers/mobile/add.ctp:98
+#: /views/markers/mobile/preview.ctp:54
+#: /views/markers/mobile/startup.ctp:100
+#: /views/markers/mobile/view.ctp:50
+msgid "Category"
+msgstr "Tipologia"
+
+#: /views/elements/form_add_edit_admin.ctp:17
+#: /views/elements/form_startup.ctp:9
+#: /views/markers/admin_edit.ctp:106
+msgid "Add some images or media?"
+msgstr "Aggiungere immagini o media?"
+
+#: /views/elements/form_comments.ctp:22
+msgid "wrote"
+msgstr "Aggiunto"
+
+#: /views/elements/form_comments.ctp:22
+msgid "on"
+msgstr "il"
+
+#: /views/elements/form_comments.ctp:37;40
+#: /views/elements/form_startup.ctp:20
+#: /views/markers/mobile/startup.ctp:112
+#: /views/users/admin_view.ctp:83
+#: /views/users/signup.ctp:56
+msgid "Nickname"
+msgstr "Nickname"
+
+#: /views/elements/form_comments.ctp:38;41
+msgid "email"
+msgstr "email"
+
+#: /views/elements/form_comments.ctp:43
+msgid "comment"
+msgstr "Commento (visibile previa moderazione)"
+
+#: /views/elements/form_comments.ctp:44
+#: /views/users/resetpassword.ctp:52
+#: /views/users/signup.ctp:74
+msgid "<div>To prevent spammers, please calculate:</div>"
+msgstr "<div>Per prevenire spam, per favore calcola:</div>"
+
+#: /views/elements/form_comments.ctp:50
+msgid "Save Comment"
+msgstr "Salva commento"
+
+#: /views/elements/form_startup.ctp:19
+#: /views/markers/mobile/startup.ctp:109
+#: /views/users/login.ctp:60
+#: /views/users/mobile/login.ctp:39
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#: /views/elements/form_startup.ctp:21
+#: /views/markers/mobile/startup.ctp:115
+#: /views/users/admin_view.ctp:73
+#: /views/users/login.ctp:61
+#: /views/users/signup.ctp:61
+#: /views/users/mobile/login.ctp:40
+msgid "Password"
+msgstr "Password"
+
+#: /views/elements/form_startup.ctp:22
+#: /views/markers/mobile/startup.ctp:117
+msgid "Password Repeat"
+msgstr "Ripeti password"
+
+#: /views/elements/form_startup.ctp:23
+#: /views/users/signup.ctp:63
+msgid "Want to tell us more about you?"
+msgstr "Vuoi dirci di piu' di te?"
+
+#: /views/elements/form_startup.ctp:26
+#: /views/users/admin_view.ctp:93
+#: /views/users/signup.ctp:66
+msgid "Sirname"
+msgstr "Cognome"
+
+#: /views/elements/form_startup.ctp:26
+#: /views/users/admin_view.ctp:93
+#: /views/users/signup.ctp:66
+msgid "Name"
+msgstr "Nome"
+
+#: /views/elements/form_startup.ctp:28
+#: /views/users/signup.ctp:68
+msgid "Phone"
+msgstr "Telefono"
+
+#: /views/elements/infofooter.ctp:7
+msgid "within the last 30 days"
+msgstr "proposti negli ultimi 30 giorni"
+
+#: /views/elements/infofooter.ctp:8
+msgid "current"
+msgstr "attualmente"
+
+#: /views/elements/infofooter.ctp:8
+msgid "open Markers"
+msgstr "Hot Spot aperti"
+
+#: /views/elements/infofooter.ctp:9
+msgid "overall"
+msgstr "in totale (esistenti + proposte)"
+
+#: /views/elements/infofooter.ctp:13
+msgid "Software:"
+msgstr "Software:"
+
+#: /views/elements/infofooter.ctp:15
+msgid "Version"
+msgstr "Versione"
+
+#: /views/elements/navigation.ctp:3
+msgid "All Content in a Map,Filter in Categories or view Ratings"
+msgstr "Visualizza tutti gli Hot Spot nella modalita' Mappa"
+
+#: /views/elements/navigation.ctp:3
+#: /views/markers/add.ctp:36
+#: /views/markers/app.ctp:31
+#: /views/markers/edit.ctp:36
+#: /views/markers/liste.ctp:30
+#: /views/markers/preview.ctp:33
+#: /views/markers/search.ctp:36
+#: /views/markers/startup.ctp:34
+#: /views/markers/view.ctp:28
+#: /views/markers/mobile/app.ctp:23
+#: /views/pages/contact.ctp:27
+#: /views/pages/faq.ctp:27
+#: /views/pages/imprint.ctp:27
+msgid "Map"
+msgstr "Mappa"
+
+#: /views/elements/navigation.ctp:5
+msgid "View all Markers in List view"
+msgstr "Visualizza tutti gli Hot Spot nella modalita' Lista"
+
+#: /views/elements/navigation.ctp:8
+msgid "View Markers in List view"
+msgstr "Visualizza gli Hot Spot in modalita' Lista "
+
+#: /views/elements/navigation.ctp:10
+#: /views/markers/startup.ctp:41;61
+msgid "Add a Marker"
+msgstr "Inserisci un nuovo Hot Spot"
+
+#: /views/elements/navigation.ctp:14
+msgid "Participate by clicking on the map and add some content"
+msgstr "Partecipa cliccando sulla mappa ed aggiungi contenuto"
+
+#: /views/elements/navigation.ctp:30
+msgid "Already signed up or have a Twitter or Facebook Account?"
+msgstr "Gia' accreditato?"
+
+#: /views/elements/navigation_footer.ctp:3
+msgid "View markers in map"
+msgstr "Visualizza Hot Spot nella mappa"
+
+#: /views/elements/search.ctp:3
+msgid "Search in Mas-City"
+msgstr "Cerca in Provincia di Roma - Markaspot"
+
+#: /views/elements/search.ctp:11
+#: /views/markers/search.ctp:78
+msgid "Search"
+msgstr "Cerca"
+
+#: /views/elements/search.ctp:12
+msgid "search"
+msgstr "cerca"
+
+#: /views/elements/welcome.ctp:24
+msgid "You are logged in as "
+msgstr "Effettuato log in come "
+
+#: /views/elements/welcome.ctp:30
+msgid "log out"
+msgstr "log out"
+
+#: /views/elements/welcome.ctp:34
+msgid "Welcome visitor, "
+msgstr "Benvenuto visitatore, "
+
+#: /views/elements/welcome.ctp:35
+msgid "please log in"
+msgstr "per favore effettua il log in"
+
+#: /views/layouts/default_install.ctp:18
+#: /views/layouts/default_marker.ctp:23
+#: /views/layouts/default_page.ctp:23
+#: /views/layouts/default_splash.ctp:23
+msgid "Skiplinks: Jump to "
+msgstr "Skiplinks: Salta a "
+
+#: /views/layouts/default_install.ctp:18
+#: /views/layouts/default_marker.ctp:23
+#: /views/layouts/default_page.ctp:23
+#: /views/layouts/default_splash.ctp:23
+msgid "Skiplinks: Navigation"
+msgstr ""
+
+#: /views/layouts/default_install.ctp:18
+#: /views/layouts/default_marker.ctp:23
+#: /views/layouts/default_page.ctp:23
+#: /views/layouts/default_splash.ctp:23
+msgid "Skiplinks: Content"
+msgstr ""
+
+#: /views/layouts/default_install.ctp:18
+#: /views/layouts/default_marker.ctp:23
+#: /views/layouts/default_page.ctp:23
+#: /views/layouts/default_splash.ctp:23
+msgid "Skiplinks: Sidebar"
+msgstr ""
+
+#: /views/layouts/default_install.ctp:18
+#: /views/layouts/default_marker.ctp:23
+#: /views/layouts/default_page.ctp:23
+#: /views/layouts/default_splash.ctp:23
+msgid "Skiplinks: Footer"
+msgstr ""
+
+#: /views/layouts/default_install.ctp:43
+#: /views/layouts/default_marker.ctp:54
+#: /views/layouts/default_page.ctp:52
+#: /views/layouts/default_splash.ctp:52
+msgid "Meta"
+msgstr "Informazioni sul sito"
+
+#: /views/layouts/default_install.ctp:46
+#: /views/layouts/default_marker.ctp:57
+#: /views/layouts/default_page.ctp:55
+#: /views/layouts/default_splash.ctp:55
+msgid "Contact"
+msgstr "Contatti"
+
+#: /views/layouts/default_install.ctp:47
+#: /views/layouts/default_marker.ctp:58
+#: /views/layouts/default_page.ctp:56
+#: /views/layouts/default_splash.ctp:56
+#: /views/pages/mobile/faq.ctp:23
+msgid "FAQ"
+msgstr "FAQ"
+
+#: /views/layouts/default_install.ctp:48
+#: /views/layouts/default_marker.ctp:59
+#: /views/layouts/default_page.ctp:57
+#: /views/layouts/default_splash.ctp:57
+#: /views/pages/mobile/imprint.ctp:23
+msgid "Imprint"
+msgstr "Imprint"
+
+#: /views/layouts/default_marker.ctp:70
+#: /views/layouts/default_page.ctp:68
+#: /views/layouts/default_splash.ctp:68
+msgid "What&rsquo;s around?"
+msgstr "In dettaglio"
+
+#: /views/layouts/default_marker.ctp:71
+#: /views/layouts/default_page.ctp:68
+#: /views/layouts/default_splash.ctp:68
+msgid "RSS-Feed"
+msgstr "RSS-Feed"
+
+#: /views/markers/add.ctp:43
+msgid "Add marker"
+msgstr "Aggiungi Hot Spot"
+
+#: /views/markers/add.ctp:64
+msgid "Add your marker"
+msgstr "Proponi il tuo Hot Spot"
+
+#: /views/markers/add.ctp:65
+#: /views/markers/startup.ctp:63
+msgid "Enter details of the problem. Please note that all fields marked with \"*\" are mandatory."
+msgstr "Se vuoi aggiungi motivazione e/o immagine."
+
+#: /views/markers/add.ctp:68
+msgid "Give us some Information"
+msgstr "Dacci qualche informazione"
+
+#: /views/markers/add.ctp:71
+#: /views/markers/startup.ctp:69
+#: /views/markers/mobile/add.ctp:106
+#: /views/markers/mobile/startup.ctp:123
+msgid "Save information"
+msgstr "Salva informazioni"
+
+#: /views/markers/add.ctp:75
+#: /views/markers/startup.ctp:74
+msgid "Where does it happen? Localize!"
+msgstr "Localizza"
+
+#: /views/markers/add.ctp:76
+msgid "Add a streets name or click on the map in the desired position. You can correct the position of the marker by dragging it."
+msgstr "Indica il luogo esatto in cui vuoi proporre l'Hotspot cliccando sulla mappa.<br />Puoi coreggere la posizione trascinando il marker."
+
+#: /views/markers/admin_edit.ctp:45
+msgid "Administrate marker"
+msgstr "Amministra Hot Spot"
+
+#: /views/markers/admin_edit.ctp:67
+msgid "Administration of markers"
+msgstr "Amministrazione degli Hot Spot"
+
+#: /views/markers/admin_edit.ctp:80
+#: /views/markers/app.ctp:104
+#: /views/markers/edit.ctp:78
+#: /views/markers/liste.ctp:117
+#: /views/markers/preview.ctp:109
+#: /views/markers/view.ctp:99
+msgid "Are you sure to delete Marker # %s?"
+msgstr "Sicuro di voler cancellare Hot Spot ID %s?"
+
+#: /views/markers/admin_edit.ctp:88
+msgid "Enter Information"
+msgstr "Inserisci informazione"
+
+#: /views/markers/admin_edit.ctp:104
+#: /views/markers/preview.ctp:129
+#: /views/markers/view.ctp:119
+#: /views/markers/mobile/preview.ctp:63
+#: /views/markers/mobile/view.ctp:59
+msgid "Description"
+msgstr "Descrizione"
+
+#: /views/markers/admin_edit.ctp:116
+msgid "Status of Administration"
+msgstr "Stato amministrazione"
+
+#: /views/markers/admin_edit.ctp:122
+msgid "Notify User"
+msgstr "Notifica utente"
+
+#: /views/markers/admin_edit.ctp:126
+msgid "Update @Twitter"
+msgstr "Aggiorna @Twitter"
+
+#: /views/markers/admin_edit.ctp:134
+#: /views/markers/view.ctp:163
+#: /views/markers/mobile/preview.ctp:92
+#: /views/markers/mobile/view.ctp:88
+msgid "Voting"
+msgstr "Votazione"
+
+#: /views/markers/admin_edit.ctp:134
+#: /views/markers/ajaxlist.ctp:133
+#: /views/markers/app.ctp:75
+#: /views/markers/liste.ctp:82
+#: /views/markers/preview.ctp:159
+#: /views/markers/view.ctp:153
+#: /views/markers/mobile/preview.ctp:80
+#: /views/markers/mobile/view.ctp:76
+#: /views/users/admin_view.ctp:205
+msgid "Rating"
+msgstr "Classificazione"
+
+#: /views/markers/admin_edit.ctp:134
+msgid "Both"
+msgstr "Entrambi"
+
+#: /views/markers/admin_edit.ctp:138
+msgid "You may choose which kind of feedback is appropriate"
+msgstr "Scegli quale feedback e' appropriato"
+
+#: /views/markers/admin_edit.ctp:179
+#: /views/pages/admin_index.ctp:168
+msgid "block"
+msgstr "blocca"
+
+#: /views/markers/admin_edit.ctp:184
+#: /views/pages/admin_index.ctp:173
+msgid "publish"
+msgstr "pubblica"
+
+#: /views/markers/admin_edit.ctp:202
+#: /views/markers/edit.ctp:100
+#: /views/markers/preview.ctp:190
+#: /views/markers/view.ctp:201
+msgid "Map view"
+msgstr "Modalita' mappa"
+
+#: /views/markers/admin_edit.ctp:203
+#: /views/markers/edit.ctp:101
+msgid "Please drag the Marker to a desired position or just edit street and zip details"
+msgstr "Trascina l'Hot Spot o modifica indirizzo e CAP"
+
+#: /views/markers/admin_edit.ctp:205
+#: /views/markers/app.ctp:87
+#: /views/markers/edit.ctp:103
+#: /views/markers/liste.ctp:95
+#: /views/markers/preview.ctp:195
+#: /views/markers/view.ctp:204
+#: /views/markers/mobile/liste.ctp:42
+#: /views/markers/mobile/preview.ctp:34
+#: /views/markers/mobile/view.ctp:30
+msgid "static map"
+msgstr "mappa statica"
+
+#: /views/markers/admin_edit.ctp:210
+#: /views/markers/edit.ctp:108
+#: /views/markers/preview.ctp:205
+#: /views/markers/view.ctp:213
+#: /views/markers/mobile/preview.ctp:106
+#: /views/markers/mobile/view.ctp:102
+msgid "Photos"
+msgstr "Foto"
+
+#: /views/markers/admin_edit.ctp:223
+#: /views/markers/edit.ctp:121
+#: /views/markers/preview.ctp:218
+#: /views/markers/view.ctp:226
+msgid "No Attachment available"
+msgstr "Nessun allegato"
+
+#: /views/markers/admin_edit.ctp:245
+#: /views/markers/edit.ctp:140
+msgid "Back to last version"
+msgstr "Torna alla versione precedente"
+
+#: /views/markers/admin_edit.ctp:247
+#: /views/markers/edit.ctp:142
+msgid "Last version"
+msgstr "Versione precedente"
+
+#: /views/markers/admin_edit.ctp:243
+#: /views/markers/edit.ctp:143
+msgid "undo"
+msgstr "undo"
+
+#: /views/markers/admin_edit.ctp:250
+msgid "Stats"
+msgstr "Stats"
+
+#: /views/markers/admin_edit.ctp:251
+#: /views/markers/view.ctp:144
+msgid "Views:"
+msgstr "Visualizzazioni:"
+
+#: /views/markers/admin_edit.ctp:254
+#: /views/markers/view.ctp:235
+#: /views/markers/mobile/preview.ctp:127
+#: /views/markers/mobile/view.ctp:123
+#: /views/pages/admin_index.ctp:93
+msgid "Log"
+msgstr "Cronologia eventi"
+
+#: /views/markers/admin_edit.ctp:271
+msgid "delete"
+msgstr "cancella"
+
+#: /views/markers/ajaxlist.ctp:57;68
+#: /views/users/admin_index.ctp:92;104
+msgid "hide"
+msgstr "nascondi"
+
+#: /views/markers/ajaxlist.ctp:62
+#: /views/users/admin_index.ctp:98
+msgid "show"
+msgstr "mostra"
+
+#: /views/markers/ajaxlist.ctp:79
+msgid "Filter List"
+msgstr "Filtra lista"
+
+#: /views/markers/ajaxlist.ctp:80;84
+#: /views/markers/app.ctp:136
+#: /views/markers/liste.ctp:155
+msgid "Choose category"
+msgstr "Scegli tipologia"
+
+#: /views/markers/ajaxlist.ctp:100;104
+#: /views/markers/app.ctp:151
+#: /views/markers/liste.ctp:172
+msgid "Choose status"
+msgstr "Scegli stato"
+
+#: /views/markers/ajaxlist.ctp:120
+#: /views/markers/app.ctp:66
+#: /views/markers/liste.ctp:73
+#: /views/markers/search.ctp:91
+msgid "Page %page% of %pages% | %current% Markers of %count%"
+msgstr "Pagina %page% di %pages% | Spot %current% di %count%"
+
+#: /views/markers/ajaxlist.ctp:125
+#: /views/users/admin_index.ctp:142
+msgid "Links"
+msgstr "Collegamenti"
+
+#: /views/markers/ajaxlist.ctp:131
+msgid "Choose Category"
+msgstr "Tipologia"
+
+#: /views/markers/ajaxlist.ctp:134
+#: /views/users/admin_view.ctp:206
+msgid "Votes"
+msgstr "Voti"
+
+#: /views/markers/ajaxlist.ctp:135
+msgid "Voting Yes"
+msgstr "Voti Si"
+
+#: /views/markers/ajaxlist.ctp:136
+msgid "Voting No"
+msgstr "Voti No"
+
+#: /views/markers/ajaxlist.ctp:137
+msgid "Voting Abs"
+msgstr "Voti Astenuto"
+
+#: /views/markers/ajaxlist.ctp:150
+msgid "No Markers found"
+msgstr "Nessun Hot Spot trovato"
+
+#: /views/markers/ajaxlist.ctp:165
+msgid "Show in Map"
+msgstr "Mostra nella mappa"
+
+#: /views/markers/ajaxlist.ctp:167
+msgid "No adress given"
+msgstr "Nessun indirizzo"
+
+#: /views/markers/ajaxlist.ctp:196
+#: /views/markers/app.ctp:96
+#: /views/markers/edit.ctp:67
+#: /views/markers/liste.ctp:109
+#: /views/markers/preview.ctp:85
+#: /views/markers/view.ctp:75
+#: /views/markers/mobile/preview.ctp:52
+#: /views/markers/mobile/view.ctp:48
+msgid "Details"
+msgstr "Dettagli"
+
+#: /views/markers/ajaxlist.ctp:202
+#: /views/markers/preview.ctp:97
+#: /views/markers/view.ctp:87
+#: /views/markers/mobile/preview.ctp:161
+#: /views/markers/mobile/view.ctp:156
+#: /views/pages/admin_index.ctp:77
+msgid "administrate"
+msgstr "Amministra"
+
+#: /views/markers/ajaxlist.ctp:206
+#: /views/markers/mobile/preview.ctp:165
+#: /views/markers/mobile/view.ctp:160
+#: /views/pages/admin_index.ctp:79
+msgid "Are you sure to delete marker # %s?"
+msgstr "Sicuro di voler cancellare Hot Spot ID %s?"
+
+#: /views/markers/ajaxlist.ctp:218
+#: /views/markers/liste.ctp:122
+#: /views/markers/search.ctp:136
+#: /views/markers/mobile/liste.ctp:54
+msgid "Previous Page"
+msgstr "Pagina precedente"
+
+#: /views/markers/ajaxlist.ctp:220
+#: /views/markers/app.ctp:111
+#: /views/markers/liste.ctp:124
+#: /views/markers/search.ctp:138
+#: /views/markers/mobile/liste.ctp:56
+msgid "Next page"
+msgstr "Pagina successiva"
+
+#: /views/markers/app.ctp:51
+msgid "All Markers"
+msgstr "Tutti gli Hot Spot"
+
+#: /views/markers/app.ctp:69
+msgid "All Markers sorted by"
+msgstr "Tutti gli Hot Spot ordinati per"
+
+#: /views/markers/app.ctp:89
+#: /views/markers/liste.ctp:101
+msgid "Category:"
+msgstr "Tipologia:"
+
+#: /views/markers/app.ctp:91
+#: /views/markers/liste.ctp:103
+msgid "Status:"
+msgstr "Stato:"
+
+#: /views/markers/app.ctp:109
+msgid "Previous page"
+msgstr "Pagina precedente"
+
+#: /views/markers/app.ctp:115
+msgid "Map&rsquo;s View"
+msgstr "Vedi mappa"
+
+#: /views/markers/app.ctp:122
+#: /views/markers/liste.ctp:139
+msgid "Choose district"
+msgstr "Scegli distretto"
+
+#: /views/markers/index.ctp:79
+#: /views/pages/admin_index.ctp:131
+msgid "Reports with fotos"
+msgstr "Proposte con foto"
+
+#: /views/markers/index.ctp:99
+#: /views/markers/view.ctp:35
+#: /views/pages/admin_index.ctp:142
+#: /views/pages/contact.ctp:34
+#: /views/pages/faq.ctp:34
+#: /views/pages/imprint.ctp:34
+msgid "View details"
+msgstr "Vedi dettagli"
+
+#: /views/markers/index.ctp:124
+msgid "Click to watch the map"
+msgstr "Clicca per vedere la mappa"
+
+#: /views/markers/index.ctp:129
+#: /views/pages/admin_index.ctp:69
+msgid "Recent changes"
+msgstr "Ultimi aggiornamenti"
+
+#: /views/markers/index.ctp:139
+#: /views/pages/admin_index.ctp:86
+msgid "This happened:"
+msgstr "Evento:"
+
+#: /views/markers/index.ctp:139
+#: /views/pages/admin_index.ctp:86
+msgid ", on "
+msgstr ", su "
+
+#: /views/markers/liste.ctp:37
+msgid "List"
+msgstr "Lista"
+
+#: /views/markers/liste.ctp:57
+msgid "Your Markers"
+msgstr "I tuoi Hot Spot"
+
+#: /views/markers/liste.ctp:59
+msgid "All Markers "
+msgstr "Tutti gli Hot Spot"
+
+#: /views/markers/liste.ctp:76
+msgid "Sort markers"
+msgstr "Ordina Hot Spot"
+
+#: /views/markers/preview.ctp:40
+msgid "Preview Details"
+msgstr "Anteprima dettagli"
+
+#: /views/markers/preview.ctp:75
+msgid "Preview"
+msgstr "Anteprima"
+
+#: /views/markers/preview.ctp:79
+#: /views/markers/mobile/preview.ctp:31
+msgid "This is the preview of your marker. If this is your first contribution on this platform, please check your mail to confirm your membership."
+msgstr "Questa e' l'anteprima del tuo Hot Spot."
+
+#: /views/markers/preview.ctp:146
+#: /views/markers/view.ctp:144
+#: /views/markers/mobile/preview.ctp:37
+#: /views/markers/mobile/view.ctp:33
+msgid "added: "
+msgstr "Aggiunto: "
+
+#: /views/markers/preview.ctp:146
+msgid "by "
+msgstr "da "
+
+#: /views/markers/preview.ctp:156
+#: /views/markers/view.ctp:144
+msgid "last edited on"
+msgstr "Ultima modifica"
+
+#: /views/markers/search.ctp:44
+msgid "Results"
+msgstr "Risultati"
+
+#: /views/markers/search.ctp:68
+msgid "Search results"
+msgstr "Risultati ricerca"
+
+#: /views/markers/search.ctp:85
+msgid "Your results for \""
+msgstr "I tuoi risultati per \""
+
+#: /views/markers/startup.ctp:66
+msgid "Enter marker details"
+msgstr "Inserisci dettagli Hot Spot"
+
+#: /views/markers/startup.ctp:75
+msgid "Please drag the Marker to the desired position or just enter street and zip details"
+msgstr "Sposta l'Hot Spot nella posizione desiderata o inserisci indirizzo e CAP"
+
+#: /views/markers/view.ctp:144
+msgid "Comments:"
+msgstr "Commenti"
+
+#: /views/markers/view.ctp:164
+#: /views/markers/mobile/preview.ctp:93
+#: /views/markers/mobile/view.ctp:89
+msgid "Do you agree with this?"
+msgstr "Sei d'accordo? Permesso un solo voto per utente."
+
+#: /views/markers/mobile/index.ctp:25
+msgid "Welcome to Mas-City.com"
+msgstr "Benvenuto in Provincia di Roma - Mark a Spot"
+
+#: /views/markers/mobile/liste.ctp:24
+msgid "List view"
+msgstr "Modalita' Lista"
+
+#: /views/markers/mobile/preview.ctp:117
+#: /views/markers/mobile/view.ctp:113
+#: /views/pages/admin_index.ctp:144
+msgid "No picture available"
+msgstr "Nessuna immagine disponibile"
+
+#: /views/pages/mobile/twitter.ctp:23;27
+msgid "Twitter Content"
+msgstr "Contenuto Twitter"
+
+#: /views/statuses/add.ctp:4
+#: /views/statuses/admin_add.ctp:4
+msgid "Add Processcat"
+msgstr "Aggiungi Processcat"
+
+#: /views/statuses/add.ctp:17
+#: /views/statuses/admin_add.ctp:17
+#: /views/statuses/admin_edit.ctp:19
+#: /views/statuses/admin_view.ctp:43
+#: /views/statuses/edit.ctp:19
+#: /views/statuses/view.ctp:43
+msgid "List Statuses"
+msgstr "Lista Stati"
+
+#: /views/statuses/admin_edit.ctp:4
+#: /views/statuses/admin_view.ctp:41
+#: /views/statuses/edit.ctp:4
+#: /views/statuses/view.ctp:41
+msgid "Edit Processcat"
+msgstr "Modifica Processcat"
+
+#: /views/statuses/admin_index.ctp:2
+#: /views/statuses/index.ctp:2
+msgid "Statuses"
+msgstr "Stati"
+
+#: /views/statuses/admin_index.ctp:65
+#: /views/statuses/admin_view.ctp:44
+#: /views/statuses/index.ctp:65
+#: /views/statuses/view.ctp:44
+msgid "New Processcat"
+msgstr "Nuovo Processcat"
+
+#: /views/statuses/admin_view.ctp:42
+#: /views/statuses/view.ctp:42
+msgid "Delete Processcat"
+msgstr "Elimina Processcat"
+
+#: /views/twitter/admin_index.ctp:42;64
+msgid "Admin Tweets"
+msgstr ""
+
+#: /views/twitter/admin_index.ctp:96
+msgid "Import to Mark-a-Spot"
+msgstr ""
+
+#: /views/twitter/admin_index.ctp:104
+msgid "No geolocation given"
+msgstr ""
+
+#: /views/twitter/admin_index.ctp:125
+msgid "Reply before Import"
+msgstr ""
+
+#: /views/twitter/admin_index.ctp:130
+msgid "More details"
+msgstr ""
+
+#: /views/twitter/admin_index.ctp:130
+msgid "Detailed address"
+msgstr ""
+
+#: /views/twitter/admin_index.ctp:130
+msgid "A picture?"
+msgstr ""
+
+#: /views/twitter/admin_index.ctp:138
+msgid "Ignore Tweet"
+msgstr ""
+
+#: /views/twitter/admin_index.ctp:173
+msgid "No Tweets with Mentions or #hashtag"
+msgstr ""
+
+#: /views/twitter/callback.ctp:30
+msgid "Logged in via Twitter"
+msgstr ""
+
+#: /views/twitter/callback.ctp:61
+msgid "Twitter API Credentials"
+msgstr ""
+
+#: /views/twitter/callback.ctp:63
+msgid "<p>Thank you. You are now logged in with your twitter Account and your Nickname is:</p>"
+msgstr ""
+
+#: /views/twitter/callback.ctp:65
+msgid "<p>If you find your way back to this plattform just log in by clicking on the Twitter Connect Link again:</p>"
+msgstr ""
+
+#: /views/users/admin_add.ctp:40
+#: /views/users/admin_edit.ctp:40
+#: /views/users/admin_index.ctp:40;136
+#: /views/users/admin_password.ctp:42
+msgid "Admin Users"
+msgstr ""
+
+#: /views/users/admin_add.ctp:48
+#: /views/users/admin_index.ctp:209
+msgid "Add User"
+msgstr ""
+
+#: /views/users/admin_add.ctp:70
+msgid "Admin Add User"
+msgstr ""
+
+#: /views/users/admin_add.ctp:82
+#: /views/users/admin_edit.ctp:101
+#: /views/users/admin_password.ctp:83
+msgid "Submit"
+msgstr ""
+
+#: /views/users/admin_edit.ctp:48
+#: /views/users/admin_view.ctp:118
+msgid "Edit User"
+msgstr ""
+
+#: /views/users/admin_edit.ctp:69;72
+#: /views/users/admin_password.ctp:74
+msgid "Admin Edit User"
+msgstr ""
+
+#: /views/users/admin_index.ctp:172
+msgid "Admin-User"
+msgstr ""
+
+#: /views/users/admin_index.ctp:172
+msgid "disabled"
+msgstr ""
+
+#: /views/users/admin_index.ctp:172
+msgid "blocked"
+msgstr ""
+
+#: /views/users/admin_index.ctp:172
+msgid "active"
+msgstr ""
+
+#: /views/users/admin_index.ctp:191
+msgid "Are you sure to delete user # %s?"
+msgstr ""
+
+#: /views/users/admin_index.ctp:194
+msgid "Change Password"
+msgstr "Cambio Password"
+
+#: /views/users/admin_index.ctp:222
+#: /plugins/configurator/views/configurations/admin_index.ctp:112
+msgid "previous"
+msgstr "Precedente"
+
+#: /views/users/admin_password.ctp:49;71
+msgid "Admin Edit User Password"
+msgstr ""
+
+#: /views/users/admin_password.ctp:78
+#: /views/users/newpassword.ctp:55
+msgid "Passwort"
+msgstr "Password"
+
+#: /views/users/admin_password.ctp:79
+#: /views/users/newpassword.ctp:56
+#: /views/users/signup.ctp:62
+msgid "Password repeat"
+msgstr "Ripeti la password"
+
+#: /views/users/admin_view.ctp:39
+msgid "Edit categories"
+msgstr ""
+
+#: /views/users/admin_view.ctp:68
+msgid "Email Address"
+msgstr ""
+
+#: /views/users/admin_view.ctp:78
+msgid "Active"
+msgstr ""
+
+#: /views/users/admin_view.ctp:88
+msgid "Prename"
+msgstr ""
+
+#: /views/users/admin_view.ctp:98
+msgid "Fon"
+msgstr ""
+
+#: /views/users/admin_view.ctp:119
+msgid "Delete User"
+msgstr ""
+
+#: /views/users/admin_view.ctp:120
+msgid "List Users"
+msgstr ""
+
+#: /views/users/admin_view.ctp:121
+msgid "New User"
+msgstr ""
+
+#: /views/users/admin_view.ctp:126
+msgid "List Transactions"
+msgstr ""
+
+#: /views/users/admin_view.ctp:127;304
+msgid "New Transaction"
+msgstr ""
+
+#: /views/users/admin_view.ctp:128
+msgid "List Groups"
+msgstr ""
+
+#: /views/users/admin_view.ctp:129
+msgid "New Group"
+msgstr ""
+
+#: /views/users/admin_view.ctp:133
+msgid "Related Comments"
+msgstr ""
+
+#: /views/users/admin_view.ctp:138;272
+msgid "Marker Id"
+msgstr ""
+
+#: /views/users/admin_view.ctp:139;191;270
+msgid "User Id"
+msgstr ""
+
+#: /views/users/admin_view.ctp:140
+msgid "Group Id"
+msgstr ""
+
+#: /views/users/admin_view.ctp:142
+msgid "Email"
+msgstr ""
+
+#: /views/users/admin_view.ctp:185
+msgid "Related Markers"
+msgstr ""
+
+#: /views/users/admin_view.ctp:190
+msgid "Gov Id"
+msgstr ""
+
+#: /views/users/admin_view.ctp:192
+msgid "Status Id"
+msgstr ""
+
+#: /views/users/admin_view.ctp:193
+msgid "District Id"
+msgstr ""
+
+#: /views/users/admin_view.ctp:194
+msgid "Source Id"
+msgstr ""
+
+#: /views/users/admin_view.ctp:196
+msgid "Descr"
+msgstr ""
+
+#: /views/users/admin_view.ctp:197
+msgid "Category Id"
+msgstr ""
+
+#: /views/users/admin_view.ctp:198
+msgid "Street"
+msgstr ""
+
+#: /views/users/admin_view.ctp:207
+msgid "Dirname"
+msgstr ""
+
+#: /views/users/admin_view.ctp:208
+msgid "Basename"
+msgstr ""
+
+#: /views/users/admin_view.ctp:209
+msgid "Checksum"
+msgstr ""
+
+#: /views/users/admin_view.ctp:210
+msgid "Media Url"
+msgstr ""
+
+#: /views/users/admin_view.ctp:211
+msgid "Event Start"
+msgstr ""
+
+#: /views/users/admin_view.ctp:212
+msgid "Event End"
+msgstr ""
+
+#: /views/users/admin_view.ctp:265
+msgid "Related Transactions"
+msgstr ""
+
+#: /views/users/admin_view.ctp:309
+msgid "Related Groups"
+msgstr ""
+
+#: /views/users/login.ctp:56
+msgid "Enter login data"
+msgstr "Inserisci dati"
+
+#: /views/users/login.ctp:62
+#: /views/users/mobile/login.ctp:41
+msgid "Log in automatically on this computer"
+msgstr "Accedi automaticamente da questo computer"
+
+#: /views/users/login.ctp:65
+msgid "<span>Log in</span>"
+msgstr "Accedi"
+
+#: /views/users/login.ctp:69
+msgid "Are you already a member of the following social media networks? Sign in to out platform based on \"Mark-a-Spot\""
+msgstr ""
+
+#: /views/users/login.ctp:76
+msgid "<span>Sign with Twitter</span>"
+msgstr ""
+
+#: /views/users/login.ctp:83
+#: /views/users/resetpassword.ctp:58
+msgid "You haven&rsquo;t been here yet and want to add a marker?"
+msgstr "Vuoi aggiungere un hotspot subito?"
+
+#: /views/users/login.ctp:86
+#: /views/users/resetpassword.ctp:61
+msgid "Add a marker directly"
+msgstr "Inserisci direttamente un hotspot"
+
+#: /views/users/login.ctp:87
+#: /views/users/resetpassword.ctp:62
+msgid "Lost your password?"
+msgstr "Password persa?"
+
+#: /views/users/newpassword.ctp:28
+msgid "Enter a new password"
+msgstr "Inserisci la nuova password"
+
+#: /views/users/newpassword.ctp:48
+msgid "Choose a new password"
+msgstr "Scegli la nuova password"
+
+#: /views/users/newpassword.ctp:58
+msgid "<span>Save new password</span>"
+msgstr "Salva la nuova password"
+
+#: /views/users/resetpassword.ctp:27;47
+msgid "Reset your password"
+msgstr "Reset della password"
+
+#: /views/users/resetpassword.ctp:51
+msgid "<div>Enter the e-mail address you used for registration</div>"
+msgstr "Inserisci l'e-mail che hai usato per la registrazione"
+
+#: /views/users/resetpassword.ctp:51
+msgid "e-mail"
+msgstr ""
+
+#: /views/users/resetpassword.ctp:54
+msgid "<span>Request e-mail</span>."
+msgstr "Inviare richiesta"
+
+#: /views/users/signup.ctp:49
+msgid "registrati"
+msgstr ""
+
+#: /views/users/signup.ctp:57
+msgid "E-mail"
+msgstr ""
+
+#: /views/users/signup.ctp:76
+msgid "<span>Sign up</span>."
+msgstr "Registrati"
+
+#: /plugins/configurator/controllers/configurations_controller.php:28;55;74
+msgid "Invalid configuration."
+msgstr ""
+
+#: /plugins/configurator/controllers/configurations_controller.php:42;60
+msgid "The configuration has been saved."
+msgstr ""
+
+#: /plugins/configurator/controllers/configurations_controller.php:45;63
+msgid "The configuration could not be saved."
+msgstr ""
+
+#: /plugins/configurator/controllers/configurations_controller.php:45;63
+msgid "Please, try again."
+msgstr ""
+
+#: /plugins/configurator/controllers/configurations_controller.php:78
+msgid "Configuration deleted."
+msgstr ""
+
+#: /plugins/configurator/controllers/configurations_controller.php:81
+msgid "Configuration was not deleted."
+msgstr ""
+
+#: /plugins/configurator/views/configurations/admin_add.ctp:47
+msgid "Add Configuration"
+msgstr ""
+
+#: /plugins/configurator/views/configurations/admin_add.ctp:51
+#: /plugins/configurator/views/configurations/admin_edit.ctp:54
+msgid "The key must be unique."
+msgstr ""
+
+#: /plugins/configurator/views/configurations/admin_add.ctp:52
+#: /plugins/configurator/views/configurations/admin_edit.ctp:55
+msgid "The key can contain only alphanumerical characters, underscore and a dot. It cannot start or end or have more than one subsequent dot."
+msgstr ""
+
+#: /plugins/configurator/views/configurations/admin_add.ctp:53
+#: /plugins/configurator/views/configurations/admin_edit.ctp:56
+msgid "That key is reserved and cannot be used."
+msgstr ""
+
+#: /plugins/configurator/views/configurations/admin_edit.ctp:46
+msgid "Edit Configuration"
+msgstr ""
+
+#: /plugins/configurator/views/configurations/admin_index.ctp:42
+msgid "Configurations"
+msgstr ""
+
+#: /plugins/configurator/views/configurations/admin_view.ctp:46
+msgid "Key"
+msgstr ""
+
+#: /plugins/configurator/views/configurations/admin_view.ctp:51
+msgid "Value"
+msgstr ""
+
+#: /plugins/configurator/views/configurations/admin_view.ctp:77
+msgid "Are you sure you want to delete \"%s\"?"
+msgstr ""
+
+#: /plugins/configurator/views/configurations/admin_view.ctp:78
+msgid "List Configurations"
+msgstr ""
+
+#: /plugins/debug_kit/controllers/components/toolbar.php:99
+msgid "Component intitailization"
+msgstr ""
+
+#: /plugins/debug_kit/controllers/components/toolbar.php:100
+msgid "Component initialization and startup"
+msgstr ""
+
+#: /plugins/debug_kit/controllers/components/toolbar.php:170
+msgid "Controller action"
+msgstr ""
+
+#: /plugins/debug_kit/controllers/components/toolbar.php:171
+msgid "Controller action start"
+msgstr ""
+
+#: /plugins/debug_kit/controllers/components/toolbar.php:199
+msgid "Render Controller Action"
+msgstr ""
+
+#: /plugins/debug_kit/controllers/components/toolbar.php:200
+msgid "Controller render start"
+msgstr ""
+
+#: /plugins/debug_kit/controllers/components/toolbar.php:266
+msgid "Could not load DebugToolbar panel %s"
+msgstr ""
+
+#: /plugins/debug_kit/vendors/debug_kit_debugger.php:185
+msgid "Core Processing (Derived)"
+msgstr ""
+
+#: /plugins/debug_kit/vendors/fire_cake.php:297
+msgid "Headers already sent in %s on line %s. Cannot send log data to FirePHP."
+msgstr ""
+
+#: /plugins/debug_kit/vendors/fire_cake.php:318
+msgid "Incorrect parameter count for FireCake::fb()"
+msgstr ""
+
+#: /plugins/debug_kit/vendors/fire_cake.php:397
+msgid "Maximum number (99,999) of messages reached!"
+msgstr ""
+
+#: /plugins/debug_kit/vendors/shells/benchmark.php:50
+msgid "-> Testing :url"
+msgstr ""
+
+#: /plugins/debug_kit/vendors/shells/benchmark.php:76
+msgid "Total Requests made: :requests"
+msgstr ""
+
+#: /plugins/debug_kit/vendors/shells/benchmark.php:77
+msgid "Total Time elapsed: :duration (seconds)"
+msgstr ""
+
+#: /plugins/debug_kit/vendors/shells/benchmark.php:81
+msgid "Requests/Second: :rps req/sec"
+msgstr ""
+
+#: /plugins/debug_kit/vendors/shells/benchmark.php:85
+msgid "Average request time: :average-time seconds"
+msgstr ""
+
+#: /plugins/debug_kit/vendors/shells/benchmark.php:89
+msgid "Standard deviation of average request time: :std-dev"
+msgstr ""
+
+#: /plugins/debug_kit/vendors/shells/benchmark.php:93
+msgid "Longest/shortest request: :longest sec/:shortest sec"
+msgstr ""
+
+#: /plugins/debug_kit/vendors/shells/benchmark.php:145
+msgid "DebugKit Benchmark Shell"
+msgstr ""
+
+#: /plugins/debug_kit/vendors/shells/benchmark.php:147
+msgid "\tAllows you to obtain some rough benchmarking statistics \n\tabout a fully qualified URL."
+msgstr ""
+
+#: /plugins/debug_kit/vendors/shells/benchmark.php:149
+msgid "\tUse:"
+msgstr ""
+
+#: /plugins/debug_kit/vendors/shells/benchmark.php:150
+msgid "\t\tcake benchmark [-n iterations] [-t timeout] url"
+msgstr ""
+
+#: /plugins/debug_kit/vendors/shells/benchmark.php:152
+msgid "\tParams:"
+msgstr ""
+
+#: /plugins/debug_kit/vendors/shells/benchmark.php:153
+msgid "\t\t-n Number of iterations to perform. Defaults to 10. \n\t\t   Must be an integer."
+msgstr ""
+
+#: /plugins/debug_kit/vendors/shells/benchmark.php:154
+msgid "\t\t-t Maximum total time for all iterations, in seconds. \n\t\t   Defaults to 100. Must be an integer."
+msgstr ""
+
+#: /plugins/debug_kit/vendors/shells/benchmark.php:156
+msgid "\tIf a single iteration takes more than the \n\ttimeout specified, only one request will be made."
+msgstr ""
+
+#: /plugins/debug_kit/vendors/shells/benchmark.php:158
+msgid "\tExample Use:"
+msgstr ""
+
+#: /plugins/debug_kit/vendors/shells/benchmark.php:159
+msgid "\t\tcake benchmark -n 10 -t 100 http://localhost/testsite"
+msgstr ""
+
+#: /plugins/debug_kit/vendors/shells/benchmark.php:161
+msgid "\tNote that this benchmark does not include browser render time"
+msgstr ""
+
+#: /plugins/debug_kit/views/debug.php:41
+msgid "Rendering %s"
+msgstr ""
+
+#: /plugins/debug_kit/views/debug.php:83
+msgid "Rendering View"
+msgstr ""
+
+#: /plugins/debug_kit/views/debug.php:89
+msgid "View render complete"
+msgstr ""
+
+#: /plugins/debug_kit/views/elements/debug_toolbar.ctp:25
+msgid "There are no active panels. You must enable a panel to see its output."
+msgstr ""
+
+#: /plugins/debug_kit/views/elements/history_panel.ctp:21
+msgid "Request History"
+msgstr ""
+
+#: /plugins/debug_kit/views/elements/history_panel.ctp:23
+msgid "No previous requests logged."
+msgstr ""
+
+#: /plugins/debug_kit/views/elements/history_panel.ctp:25
+msgid "previous requests available"
+msgstr ""
+
+#: /plugins/debug_kit/views/elements/history_panel.ctp:27
+msgid "Restore to current request"
+msgstr ""
+
+#: /plugins/debug_kit/views/elements/log_panel.ctp:21
+msgid "Logs"
+msgstr ""
+
+#: /plugins/debug_kit/views/elements/log_panel.ctp:28
+msgid "Time"
+msgstr ""
+
+#: /plugins/debug_kit/views/elements/log_panel.ctp:28
+#: /plugins/debug_kit/views/elements/timer_panel.ctp:40;64
+msgid "Message"
+msgstr ""
+
+#: /plugins/debug_kit/views/elements/log_panel.ctp:37
+msgid "There were no log entries made this request"
+msgstr ""
+
+#: /plugins/debug_kit/views/elements/request_panel.ctp:21
+msgid "Request"
+msgstr ""
+
+#: /plugins/debug_kit/views/elements/request_panel.ctp:35
+msgid "Current Route"
+msgstr ""
+
+#: /plugins/debug_kit/views/elements/session_panel.ctp:21
+msgid "Session"
+msgstr ""
+
+#: /plugins/debug_kit/views/elements/sql_log_panel.ctp:25
+msgid "Sql Logs"
+msgstr ""
+
+#: /plugins/debug_kit/views/elements/sql_log_panel.ctp:40
+msgid "Query Explain:"
+msgstr ""
+
+#: /plugins/debug_kit/views/elements/sql_log_panel.ctp:43
+msgid "Click an \"Explain\" link above, to see the query explanation."
+msgstr ""
+
+#: /plugins/debug_kit/views/elements/sql_log_panel.ctp:48
+msgid "No active database connections"
+msgstr ""
+
+#: /plugins/debug_kit/views/elements/timer_panel.ctp:33
+msgid "Memory"
+msgstr ""
+
+#: /plugins/debug_kit/views/elements/timer_panel.ctp:36
+msgid "Peak Memory Use"
+msgstr ""
+
+#: /plugins/debug_kit/views/elements/timer_panel.ctp:40
+msgid "Memory use"
+msgstr ""
+
+#: /plugins/debug_kit/views/elements/timer_panel.ctp:53
+msgid "Timers"
+msgstr ""
+
+#: /plugins/debug_kit/views/elements/timer_panel.ctp:55
+msgid "%s (ms)"
+msgstr ""
+
+#: /plugins/debug_kit/views/elements/timer_panel.ctp:56
+msgid "Total Request Time:"
+msgstr ""
+
+#: /plugins/debug_kit/views/elements/timer_panel.ctp:65
+msgid "Time in ms"
+msgstr ""
+
+#: /plugins/debug_kit/views/elements/timer_panel.ctp:66
+msgid "Graph"
+msgstr ""
+
+#: /plugins/debug_kit/views/elements/variables_panel.ctp:21
+msgid "View Variables"
+msgstr ""
+
+#: /plugins/debug_kit/views/helpers/html_toolbar.php:182
+msgid "Explain"
+msgstr ""
+
+#: /plugins/debug_kit/views/helpers/simple_graph.php:77
+msgid "Starting %sms into the request, taking %sms"
+msgstr ""
+
+#: /plugins/debug_kit/views/helpers/toolbar.php:158
+msgid "maybe slow"
+msgstr ""
+
+#: /plugins/debug_kit/libs/migration_version.php:162
+msgid "Class `%1$s` not found on file `%2$s` for %3$s."
+msgstr ""
+
+#: /plugins/debug_kit/libs/migration_version.php:271
+msgid "File `%1$s` not found in the %2$s."
+msgstr ""
+
+#: /plugins/debug_kit/libs/migration_version.php:281
+msgid "%2$s does not contain a proper map.php file."
+msgstr ""
+
+#: /plugins/debug_kit/libs/model/cake_migration.php:156
+msgid "Migration direction (%s) is not one of valid directions."
+msgstr ""
+
+#: /plugins/debug_kit/libs/model/cake_migration.php:216
+msgid "Migration action type (%s) is not one of valid actions type."
+msgstr ""
+
+#: /plugins/debug_kit/libs/model/cake_migration.php:236;293
+msgid "Table \"%s\" already exists in database."
+msgstr ""
+
+#: /plugins/debug_kit/libs/model/cake_migration.php:243;269;300;372;388
+msgid "SQL Error: %s"
+msgstr ""
+
+#: /plugins/debug_kit/libs/model/cake_migration.php:262;289
+msgid "Table \"%s\" does not exists in database."
+msgstr ""
+
+#: /plugins/debug_kit/libs/model/cake_migration.php:332
+msgid "Field \"%s\" does not exists in \"%s\"."
+msgstr ""
+
+#: /plugins/debug_kit/libs/model/cake_migration.php:340
+msgid "Field \"%s\" already exists in \"%s\"."
+msgstr ""
+
+#: /plugins/debug_kit/libs/model/cake_migration.php:423
+msgid "Interrupted when running \"%s\" callback."
+msgstr ""
+
